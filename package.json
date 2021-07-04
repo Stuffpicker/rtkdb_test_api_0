@@ -8,9 +8,11 @@
     "nodemon": "^2.0.7",
     "rethinkdb": "^2.4.2"
   },
-  "devDependencies": {},
+  "devDependencies":{} ,
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon start app.js" ,
+    "stop": "pm2 stop app.js"
+    
   },
   "author": "",
   "license": "ISC"
